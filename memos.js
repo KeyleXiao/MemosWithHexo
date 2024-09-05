@@ -69,7 +69,7 @@ function updateHTMl(data) {
             var resources = data[i].resources; var imgUrl = '', resUrl = '', resImgLength = 0; for (var j = 0; j < resources.length; j++) {
                 var restype = resources[j].type.slice(0, 5); if (restype == 'image') {
                     // imgUrl += '<figure class=""><img class="img thumbnail-image" src="' + memos + 'o/r/' + resources[j].id + '/' + resources[j].filename + '"/></figure>'
-                    imgUrl += '<figure class=""><img class="img thumbnail-image" src="' + memos + 'file/' + resources[j].name + '/' + resources[j].filename + '?thumbnail=true"/></figure>'
+                    imgUrl += '<figure class=""><img class="img" src="' + memos + 'file/' + resources[j].name + '/' + resources[j].filename + '?thumbnail=true"/></figure>'
                     resImgLength = resImgLength + 1
                 }
                 if (restype !== 'image') 
