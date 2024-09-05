@@ -36,8 +36,8 @@ comments: true
 </script>
 
 <div id="bber"></div>
-<script src="./memos.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/marked/14.0.0/marked.min.js"></script>
 <script src="./view-image.min.js"></script>
 <script src="./lately.min.js"></script>
+<script src="./memos.js"></script>
 {% endraw %}
